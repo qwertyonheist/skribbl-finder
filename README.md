@@ -1,6 +1,6 @@
 # ✏ Skribbl Finder
 
-A fast, client-side word finder tool for [skribbl.io](https://skribbl.io) — filter the official word list by length and known letters to get an instant match.
+A fast, client-side word finder tool for [skribbl.io](https://skribbl.io) - filter the official word list by length and known letters to get an instant match.
 
 > ☕ Find this useful? [Buy me a coffee](https://buymeacoffee.com/qwertyonheist)
 
@@ -8,10 +8,10 @@ A fast, client-side word finder tool for [skribbl.io](https://skribbl.io) — fi
 
 ## Features
 
-- **Filter by word length** — sidebar lists every word length (3–19 letters) with a word count
-- **Letter slot filtering** — type known letters into position slots to narrow results instantly
-- **One-click copy** — click any word pill to copy it to your clipboard
-- **Fully offline / client-side** — no server, no API, no data sent anywhere
+- **Filter by word length** - sidebar lists every word length (3–19 letters) with a word count
+- **Letter slot filtering** - type known letters into position slots to narrow results instantly
+- **One-click copy** - click any word pill to copy it to your clipboard
+- **Fully offline / client-side** - no server, no API, no data sent anywhere
 - **~1,900 words** covering the skribbl.io default English word list
 
 ---
@@ -27,7 +27,7 @@ A fast, client-side word finder tool for [skribbl.io](https://skribbl.io) — fi
 
 ## Tech Stack
 
-- Vanilla HTML / CSS / JavaScript — zero dependencies
+- Vanilla HTML / CSS / JavaScript - zero dependencies
 - Google Fonts: [Syne](https://fonts.google.com/specimen/Syne) & [DM Mono](https://fonts.google.com/specimen/DM+Mono)
 
 ---
@@ -46,7 +46,7 @@ A fast, client-side word finder tool for [skribbl.io](https://skribbl.io) — fi
 
 ## License
 
-Copyright © 2025 [qwertyonheist](https://buymeacoffee.com/qwertyonheist)
+Copyright © 2026 [qwertyonheist](https://github.com/qwertyonheist)
 
 The source code of this project (HTML, CSS, and JavaScript) is licensed under the [MIT License](https://opensource.org/licenses/MIT) — you are free to use, modify, and distribute it with attribution.
 
