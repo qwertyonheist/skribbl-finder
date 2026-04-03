@@ -51,6 +51,26 @@ header span{font-size:0.75rem;color:var(--muted)}
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:var(--bdr);border-radius:3px}
+
+@media(max-width:600px){
+  body{overflow:auto;height:auto;min-height:100vh}
+  header{padding:0.85rem 1rem}
+  header h1{font-size:1.1rem}
+  .layout{flex-direction:column;overflow:visible;flex:none}
+  .sidebar{width:100%;border-right:none;border-bottom:1px solid var(--bdr);padding:0.6rem 0.75rem;overflow-y:visible}
+  .sidebar-lbl{margin-bottom:0.4rem}
+  #lenBtns{display:flex;flex-wrap:wrap;gap:5px}
+  .len-btn{width:auto;padding:0.35rem 0.6rem;border-radius:6px;border:1px solid var(--bdr);font-size:0.75rem;margin-bottom:0}
+  .len-btn:not(.active){background:var(--surf)}
+  .main{overflow:visible;flex:none}
+  .filterbar{padding:0.75rem 1rem}
+  .filter-hint{font-size:0.65rem;margin-bottom:0.5rem}
+  .slot{width:36px;height:42px}
+  .slot input{font-size:1rem;padding-top:8px}
+  .words-area{overflow-y:visible;padding:1rem}
+  .grid{padding-top:16px;gap:6px}
+  .pill{font-size:0.8rem;padding:0.45rem 0.65rem}
+}
 </style>
 </head>
 <body>
@@ -234,3 +254,4 @@ function renderWords() {
 <footer style="text-align:center;padding:0.75rem;font-size:0.65rem;color:#444;letter-spacing:0.05em;">Copyright © 2026 <a href="https://github.com/qwertyonheist" target="_blank" style="color:#444;text-decoration:underline;">qwertyonheist</a></footer>
 </body>
 </html>
+<!-- mobile patch -->
